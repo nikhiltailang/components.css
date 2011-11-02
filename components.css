@@ -1,0 +1,148 @@
+
+/*
+	Components.css
+	Quickstart CSS components.
+	Author: Nikhil Tailang. Nov. 02, 2011.
+*/
+
+.debug { border: 1px solid red !important; background: #faa !important; color: #000 !important;	}
+.xray * { border:1px solid #adb1c2; }
+
+.l {	float: left;	}
+.r {	float: right;	}
+.dib {	display: inline-block;	zoom: 1; }
+.db {	display: block; }
+.di {	display: inline; }
+.hidden {	display: none; }
+.transparent {	opacity: 0; }
+.transparentBack {	background: transparent; }
+
+
+/*blocks*/
+.button {	padding: 5px 10px;	}
+
+.margin10 {	margin: 10px;	}
+.margin5 {	margin: 5px;	}
+.margin0 {	margin: 0;	}
+.margin0auto {	margin: 0 auto;	}
+.smauto {	margin-left: auto; margin-right: auto;}
+
+.tm5 { margin-top: 5px; }
+.bm5{	margin-bottom: 5px; }
+.vm5 {	margin-top: 5px; margin-bottom: 5px; }
+
+.vm10 {	margin-top: 10px; margin-bottom: 10px; }
+.tm10 {	margin-top: 10px; }
+.bm10 { margin-bottom: 10px; }
+
+.tm20 { margin-top: 20px; }
+.bm20 { margin-bottom: 20px; }
+
+.vm40 {	margin-top: 40px; margin-bottom: 40px; }
+.tm40 {	margin-top: 40px; }
+.bm40 { margin-bottom: 40px; }
+
+
+
+.hm15 {	margin-right: 15px; margin-left: 15px; }
+.hm5 {	margin-right: 5px; margin-left: 5px; }
+.ml10 {	margin-left: 10px; }
+.ml5 {	margin-left: 5px;  }
+.ml20 { margin-left: 20px; }
+
+
+.pad5 {	padding: 5px;	}
+.pad10 {	padding: 10px;	}
+.vpad5 { padding-top: 5px; padding-bottom: 5px; }
+.vpad10 { padding-top: 10px; padding-bottom: 10px; }
+.hpad5 { padding-left: 5px; padding-right: 5px; }
+.hpad10 { padding-left: 10px; padding-right: 10px; }
+.vpad40 { padding-top: 40px; padding-bottom: 40px; }
+
+.fullheight{	height: 100%;	}
+.border1 { border: 1px solid;   }
+.borderless {	border: 0;  }
+.round5 { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.round3 { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.circular {	-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+
+.clear {clear: both; }
+.clearer  { clear: both; height: 1px; }
+
+.pabs {	position:absolute; }
+.prel { position:relative; }
+.pfix {	position:fixed; }
+
+.lsNone {	list-style-type: none;	}
+.listIn { list-style-position: inside; }
+
+.icon16 {	width: 16px; height: 16px;	margin: 3px;	}
+.icon32 {	width: 32px; height: 32px;	margin: 5px;	}
+
+/*cursors*/
+.crsrPoint { cursor: pointer; }
+
+/*typography*/
+.sans {	font-family: Helvetica, Arial, Verdana, sans-serif; }
+.serif {	font-family: Times, serif; }
+.tar {	text-align: right;	}
+.tac {	text-align: center;	}
+.tal {	text-align: left !important; }
+.lh140 { line-height: 140%; } /*DEPRECATED. Use lhPlus for flexibility. */
+.lhPlus { line-height: 1.8; }
+.lhMinus {line-height: 0.8em; }
+
+.breakword {	word-wrap: break-word; }
+.underline {	text-decoration: underline; }
+.strike { text-decoration: line-through; }
+
+.h1 {	font-size: 24px;	}
+.h2 {	font-size: 18px;	}
+.h3 {	font-size: 16px;	}
+.h4 {	font-size: 14px;	}
+.h5 {	font-size: 12px;	}
+.h6 {	font-size: 11px;	}
+.h1plus { font-size: 36px;  }
+
+.bold {	font-weight: bold;	}
+.italic {	font-style: italic;	}
+
+.caps {	text-transform: uppercase;	}
+.capitalize { text-transform: capitalize; }
+
+.whiteShadow {	text-shadow: 1px 1px 1px #fff;	}
+.blackShadow {	text-shadow: 1px 1px 1px #000;	}
+
+.vatop {	vertical-align: top !important; }
+.vamid {	vertical-align: middle !important; }
+.vabot {	vertical-align:bottom !important; }
+
+/*table*/
+.collapse {	border-collapse: collapse }
+.zebra>tr:nth-child(even) {	background: #ccc;	}
+.pad5cells td {	padding: 5px; }
+
+/* --------------------------------
+	Widths
+-----------------------------------*/
+.w10 {	width: 10%; }
+.w20 {	width: 20%; }
+.w25 {	width: 25%; }
+.w29 { width: 29%; }
+.w30 {	width: 30%; }
+.w333 {	width: 33.3%; }
+.w40 {	width: 40%; }
+.w49 {	width: 49%;	}
+.w50 {	width: 50%; }
+.w60 {	width: 60%; }
+.w69 { width: 69%; }
+.w70 {	width: 70%; }
+.w80 {	width: 80%; }
+.w90 {	width: 90%; }
+.fullwidth {	width: 100%;	}
+
+.wpage { width: 960px; }
+.wwidepage { width: 1200px; }
+.wthinpage { width: 640px; }
+
+.floatfix { height: auto !important; overflow: hidden; }
