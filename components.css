@@ -2,7 +2,7 @@
 /*
 	Components.css
 	Quickstart CSS components.
-	Author: Nikhil Tailang. Nov. 02, 2011.
+	Author: Nikhil Tailang. Nov. 15, 2011.
 */
 
 .debug { border: 1px solid red !important; background: #faa !important; color: #000 !important;	}
@@ -93,6 +93,7 @@
 .lhMinus {line-height: 0.8em; }
 
 .breakword {	word-wrap: break-word; }
+.nowrap { white-space: nowrap; }
 .underline {	text-decoration: underline; }
 .strike { text-decoration: line-through; }
 
