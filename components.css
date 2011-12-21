@@ -2,7 +2,8 @@
 /*
 	Components.css
 	Quickstart CSS components.
-	Author: Nikhil Tailang. Nov. 15, 2011.
+	Author: Nikhil Tailang. 
+	Last Modified: Dec. 21, 2011.
 */
 
 .debug { border: 1px solid red !important; background: #faa !important; color: #000 !important;	}
@@ -147,3 +148,33 @@
 .wthinpage { width: 640px; }
 
 .floatfix { height: auto !important; overflow: hidden; }
+
+
+/* --------------------------------
+	Custom Scroll bar
+	Supported by webkit	browsers
+	Give class name to element whose
+	scrollbar is to be styled.
+-----------------------------------*/
+.customScrollbar::-webkit-scrollbar {
+	width: 6px;
+}
+.customScrollbar::-webkit-scrollbar-button {
+	
+}
+.customScrollbar::-webkit-scrollbar-track {
+	background: #eee;
+}
+.customScrollbar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.3);
+}
+.customScrollbar::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+.customScrollbar::-webkit-scrollbar-corner {
+	
+}
+.customScrollbar::-webkit-resizer {
+	
+}
