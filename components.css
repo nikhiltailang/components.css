@@ -3,7 +3,7 @@
 	Components.css
 	Quickstart CSS components.
 	Author: Nikhil Tailang. 
-	Last Modified: Dec. 21, 2011.
+	Last Modified: Jan. 06, 2012.
 */
 
 .debug { border: 1px solid red !important; background: #faa !important; color: #000 !important;	}
@@ -177,4 +177,12 @@
 }
 .customScrollbar::-webkit-resizer {
 	
+}
+
+.ease {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
